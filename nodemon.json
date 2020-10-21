@@ -1,0 +1,6 @@
+{
+  "events": {
+    "crash": "sh -c 'lsof -i :4000 -t | xargs kill'"
+  },
+  "delay": "1500"
+}
